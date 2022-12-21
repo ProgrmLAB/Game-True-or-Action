@@ -6,7 +6,7 @@ from random import randrange
 import simple_quest # импортируется словарь с вопросами и действиями.
 
 # Это токен бота и словарь, в котором хранится информация об игроках.
-bot = telebot.TeleBot('5717076672:AAFH7egwj_hUhozLI07cIzxdGj7DL7vsJn8')
+bot = telebot.TeleBot('')
 INFO = {}
 
 @bot.message_handler(commands=['start']) 
